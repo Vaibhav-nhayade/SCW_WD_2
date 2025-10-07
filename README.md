@@ -1,11 +1,11 @@
-# SCW_WD_2
+
 ---
 
 # ⏱️ Stopwatch Web Application
 
 **SkillCraft Technology Internship - Web Development Task 2**
 
-## 📘 Project Overview
+## Project Overview
 
 This project is part of the **SkillCraft Technology Internship (Web Development)** program.
 The task involves creating an **interactive and user-friendly stopwatch web application** that allows users to start, pause, reset, and record lap times with precision.
@@ -14,7 +14,7 @@ The goal of this project is to enhance your understanding of **JavaScript DOM ma
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Start / Pause / Reset Stopwatch:** Control the timer seamlessly.
 * **Lap Functionality:** Record multiple lap times for better tracking.
@@ -24,13 +24,13 @@ The goal of this project is to enhance your understanding of **JavaScript DOM ma
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **HTML5** – For structure and layout.
 * **CSS3** – For styling and responsive design.
 * **JavaScript (ES6)** – For stopwatch logic, event handling, and DOM updates.
 
-## 🧩 Folder Structure
+## Folder Structure
 
 ```
 Stopwatch-App/
@@ -43,7 +43,7 @@ Stopwatch-App/
 
 ---
 
-## 🎯 Functionality Summary
+## Functionality Summary
 
 | Function  | Description                                             |
 | --------- | ------------------------------------------------------- |
@@ -54,7 +54,7 @@ Stopwatch-App/
 
 ---
 
-## 🧠 Learning Outcomes
+## Learning Outcomes
 
 * Improved understanding of **JavaScript timing functions (`setInterval`, `clearInterval`)**.
 * Enhanced knowledge of **DOM manipulation and event handling**.
@@ -78,6 +78,6 @@ Stopwatch-App/
 
 ## 👨‍💻 Author
 
-**Name:** [Vaibhav Ravindra Nhayade]
+**Name:** Vaibhav Ravindra Nhayade
 
 ---
