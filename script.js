@@ -2,6 +2,7 @@ let startTime = 0;
 let elapsedTime = 0;
 let timerInterval;
 let running = false;
+let lapCount = 0;
 
 const display = document.getElementById("display");
 const startStopBtn = document.getElementById("startStopBtn");
@@ -36,10 +37,14 @@ startStopBtn.addEventListener("click", () => {
     timerInterval = setInterval(updateDisplay, 1000);
     running = true;
     startStopBtn.textContent = "Pause";
+    startStopBtn.classList.remove("start");
+    startStopBtn.classList.add("lap");
   } else {
     clearInterval(timerInterval);
     running = false;
     startStopBtn.textContent = "Start";
+    startStopBtn.classList.remove("lap");
+    startStopBtn.classList.add("start");
   }
 });
 
@@ -47,15 +52,19 @@ resetBtn.addEventListener("click", () => {
   clearInterval(timerInterval);
   running = false;
   elapsedTime = 0;
+  lapCount = 0;
   display.textContent = "00:00:00";
   startStopBtn.textContent = "Start";
+  startStopBtn.classList.remove("lap");
+  startStopBtn.classList.add("start");
   lapsList.innerHTML = "";
 });
 
 lapBtn.addEventListener("click", () => {
   if (running) {
+    lapCount++;
     const lapItem = document.createElement("li");
-    lapItem.textContent = display.textContent;
+    lapItem.innerHTML = `<span>Lap ${lapCount}</span> ${display.textContent}`;
     lapsList.appendChild(lapItem);
   }
 });
