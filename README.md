@@ -1,7 +1,7 @@
 
 ---
 
-# ⏱️ Stopwatch Web Application
+# Stopwatch Web Application
 
 **SkillCraft Technology Internship - Web Development Task 2**
 
